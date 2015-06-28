@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
+
+    <div ng-controller="MainCtrl">
+        {{message}}
+    </div>
+
+    <!-- Dependêcias do bower -->
+    <script src="bower_components/angular/angular.js"></script>
+
+    <!-- Módulos -->
+    <script src="app/js/main/module.js"></script>
+    <script src="app/js/main/controllers/main.controller.js"></script>
+
+    <!-- Start do sistema -->
+    <script src="app/js/app.js"></script>
+
 
 </body>
 </html>

@@ -1,0 +1,14 @@
+node_modules/
+bower_components/
+build/
+.tmp/
+.idea
+styleguide/
+config.json
+npm-debug.log
+app/js/core/constants.js
+app/js/build.js
+app/js/build.js.map
+app/sass/main.css
+app/images/sprites-generated.svg
+app/sass/spriting/_svg-sprites.scss
